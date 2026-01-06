@@ -1,0 +1,111 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.site-header {
+    background-color: #222;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation toggle (mobile menu) */
+.nav-toggle {
+    display: none;
+}
+
+.nav-label {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Navigation bar */
+.main-nav {
+    display: none;
+    background-color: #444;
+}
+
+.main-nav a {
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    border-top: 1px solid #555;
+}
+
+.main-nav a:hover {
+    background-color: #666;
+}
+
+
+
+/* Main content area */
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Intro section */
+.intro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Profile image */
+.profile-image {
+    display: block;
+    width: 150px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+}
+
+/* Centered text */
+.center-text {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #222;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+
+    .nav-label {
+        display: none;
+    }
+
+    .main-nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-nav a {
+        border: none;
+        padding: 15px 20px;
+    }
+}
