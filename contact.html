@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get in Touch | Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <h1>Personal Portfolio</h1>
+    </header>
+
+    <!-- Mobile navigation toggle -->
+    <input type="checkbox" id="nav-toggle">
+    <label for="nav-toggle" class="nav-label">
+        ☰
+    </label>
+
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="project.html">My Work</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="videoDemo.html">Demo</a>
+        <a href="sitereport.html">Report</a>
+    </nav>
+
+    <main class="content-wrapper">
+        <section class="contact-section">
+            <h2>Let’s Connect</h2>
+            <p>If you have any questions or feedback, feel free to send me a message using the form below.</p>
+
+            <form action="mailto:abc@gmail.com" method="post" enctype="text/plain" class="contact-box">
+                <div class="form-group">
+                    <input type="text" name="fullName" placeholder="Full Name" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" name="userEmail" placeholder="Email Address" required>
+                </div>
+
+                <div class="form-group">
+                    <textarea name="userMessage" rows="6" placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 ABC. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
